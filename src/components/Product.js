@@ -1,6 +1,8 @@
-import React from 'react';
+import React, { useContext } from 'react';
+// import { RemoveItem } from './contexts/RemoveItem'
 
 const Product = props => {
+
 	return (
 		<div className="product">
 			<img src={props.product.image} alt={`${props.product.title} book`} />

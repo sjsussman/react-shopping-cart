@@ -1,6 +1,6 @@
 export default [
 	{
-		id: 1,
+		id:1,
 		title: 'The Art Of War',
 		price: 10.11,
 		image:
